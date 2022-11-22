@@ -4,10 +4,10 @@ const WEBSOCKET_ENDPOINT =
     "wss://eth-goerli.g.alchemy.com/v2/cLlJg81fhAwF1Q4ZewNi6h3H4Euk05gv";
 
 const TX_DATA_TOKEN = "Calcel Transaction";
-var TX_DATA_HASHED = ""
+var TX_DATA_HASHED = "" // originally empty string
 
 var TARGET_ADDRESS = ""
-const TARGET_PRIVATEKEY = "07c450de52df478d9e77450857598020bcaf0e3db5919fe2037d1bb3c313c1a8"
+const TARGET_PRIVATEKEY = ""
 
 const provider = new ethers.providers.WebSocketProvider(WEBSOCKET_ENDPOINT)
 const fromWallet = new ethers.Wallet(TARGET_PRIVATEKEY)

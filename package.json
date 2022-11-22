@@ -1,0 +1,16 @@
+{
+  "name": "mempool-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@faast/tron-payments": "^4.7.0",
+    "vipay-wallet": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

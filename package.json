@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@faast/tron-payments": "^4.7.0",
-    "vipay-wallet": "^1.0.0"
+    "ethers": "^5.6.9"
   },
   "devDependencies": {},
   "scripts": {
